@@ -150,7 +150,7 @@ module.exports = function (grunt) {
 
         jshint: {
             options: {
-                jshintrc: '<%= theme.app %>/js/.jshintrc'
+                jshintrc: 'rc-config/.jshintrc'
             },
             assets: {
                 src: [
@@ -210,7 +210,7 @@ module.exports = function (grunt) {
         'node-inspector': {
             custom: {
                 options: {
-                    'debug-port': '<%= theme.debug.port %>' // view .node-inspectorrc to more setting
+                    'debug-port': '<%= theme.debug.port %>' // view rc-config/.node-inspectorrc to more setting
                 }
             }
         },
