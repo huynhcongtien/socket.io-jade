@@ -1,0 +1,36 @@
+{
+  "name": "RealTimeWebChat",
+  "version": "0.0.0",
+  "description": "Real time web chat",
+  "main": "Gruntfile.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/huynhcongtien/socket.io-jade.git"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "express": "^4.15.4",
+    "jade": "^1.11.0",
+    "jquery": "^3.2.1",
+    "jquery-confirm": "^3.3.2",
+    "socket.io": "^2.0.3"
+  },
+  "devDependencies": {
+    "grunt": "~1.0.1",
+    "grunt-cli": "^1.2.0",
+    "grunt-concurrent": "^2.3.1",
+    "grunt-contrib-clean": "~1.0.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-copy": "~1.0.0",
+    "grunt-contrib-cssmin": "^1.0.0",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "~1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-node-inspector": "^1.0.0",
+    "grunt-nodemon": "^0.4.2",
+    "load-grunt-tasks": "^3.5.2",
+    "time-grunt": "^1.4.0"
+  },
+  "author": "Huynh Cong Tien"
+}

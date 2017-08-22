@@ -1,0 +1,9 @@
+{
+  "web-port": 8081,
+  "web-host": "127.0.0.1",
+  "debug-port": 5000,
+  "save-live-edit": true,
+  "preload": false,
+  "hidden": ["node_modules/"],
+  "stack-trace-limit": 50
+}

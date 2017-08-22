@@ -1,0 +1,20 @@
+{
+  "asi"      : false,
+  "browser"  : true,
+  "eqeqeq"   : false,
+  "eqnull"   : true,
+  "es3"      : false,
+  "expr"     : true,
+  "jquery"   : true,
+  "latedef"  : false,
+  "laxbreak" : true,
+  "nonbsp"   : true,
+  "strict"   : false,
+  "undef"    : true,
+  "unused"   : false,
+  "node"     : true,
+  "globals"  : {
+    "io"    : true,
+    "alert" : true
+  }
+}

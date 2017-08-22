@@ -1,0 +1,35 @@
+doctype html
+html(lang="en")
+    head
+        title Socket.io + jade template demo
+        meta(name='viewport', content='width=device-width, initial-scale=1, user-scalable=no')
+        link(href='css/core.min.css', rel='stylesheet')
+        script(src='js/core.min.js')
+
+        - var is_env_dev = false;
+        - if (is_env_dev) {
+            link(href='css/style.css', rel='stylesheet')
+            script(src='js/chat.js')
+            script(src='//localhost:13431/livereload.js')
+        - }
+    body
+        .container
+            .row
+                .col-md-12
+                    header
+                        h2 Socket.io + jade template demo
+
+                    #content
+
+                    h4#user
+                        i.glyphicon.glyphicon-user
+                        span.name
+
+                    .controls
+                        .form-group
+                            label(for='field') Message:
+                            input#field.form-control
+
+                        button#send.btn.btn-primary(type='button')
+                            i.glyphicon.glyphicon-send
+                            |  Send
